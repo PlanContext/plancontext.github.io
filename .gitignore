@@ -1,0 +1,14 @@
+# Local source documents, backups and working files
+/tmp/
+/materials/
+/scripts/
+/paper-text.txt
+/template-original.html
+/MATERIALS_CHECKLIST.md
+/_site/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*

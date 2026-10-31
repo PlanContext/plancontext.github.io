@@ -1,0 +1,44 @@
+[
+  {
+    "category": "A",
+    "title": "Actionable route",
+    "caption": "Follow an immediately reachable alternative route.",
+    "src": "",
+    "poster": ""
+  },
+  {
+    "category": "B1",
+    "title": "Delayed route",
+    "caption": "Wait until the requested turn becomes locally actionable.",
+    "src": "",
+    "poster": ""
+  },
+  {
+    "category": "B2",
+    "title": "Locally invalid intention",
+    "caption": "Reject a direction unsupported by the local road topology.",
+    "src": "",
+    "poster": ""
+  },
+  {
+    "category": "C",
+    "title": "After route commitment",
+    "caption": "Continue along the committed route despite a changed intention.",
+    "src": "",
+    "poster": ""
+  },
+  {
+    "category": "L",
+    "title": "Feasible lane change",
+    "caption": "Respond to a reachable adjacent-lane intention.",
+    "src": "",
+    "poster": ""
+  },
+  {
+    "category": "LC",
+    "title": "Ongoing lane change",
+    "caption": "Preserve the continuity of a lateral maneuver already in progress.",
+    "src": "",
+    "poster": ""
+  }
+]
