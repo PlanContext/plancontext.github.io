@@ -36,8 +36,8 @@
 首页 Highlights 已改为六页视频轮播，接入说明见 `static/videos/highlights/README.md`；媒体配置位于 `static/data/highlights.json`。teaser 移至摘要后的 Why Context Matters 区域。
 
 ## GitHub Pages 发布
-仓库：https://github.com/bhsh0112/PlanContext.github.io
+仓库：https://github.com/PlanContext/plancontext.github.io
 
-在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `main`，目录 `/ (root)`，然后保存。预期网址为 https://bhsh0112.github.io/PlanContext.github.io/ 。仓库名称不同于账号名，因此这是项目站点路径。
+在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `main`，目录 `/ (root)`，然后保存。预期网址为 https://plancontext.github.io/ 。仓库名与组织名对应，这是组织根站点。
 
 `.nojekyll` 用于直接发布静态文件。`materials/`、`tmp/` 和本地生成脚本不会上传；仓库中的 `index.html`、CSS、JS 和静态资源可直接编辑维护。上述脚本相关说明适用于本地工作副本。
