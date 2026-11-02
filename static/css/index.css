@@ -15,3 +15,6 @@ body{font-family:'Segoe UI',Arial,sans-serif;line-height:1.65}html{scroll-paddin
 
 .highlight-stage{aspect-ratio:1252/842}.highlight-stage video{background:#fff}
 
+
+/* Restore the original author/affiliation typography with the revised author data. */
+.publication-authors.authors{font-size:1.25rem;line-height:1.9;max-width:930px;margin:0 auto;text-align:center;font-family:'Segoe UI',Arial,sans-serif}.authors .author-name{color:#209cee}.authors .author-block{margin-right:0}.author-block sup{font-size:.7em;padding-left:0;margin-left:2px;letter-spacing:normal}.publication-meta.affiliations{font-size:1rem;line-height:1.8;max-width:830px;margin:14px auto 0;color:#363636;text-align:center}.affiliations .author-block{margin-right:12px;white-space:nowrap}.corresponding{font-size:13px;color:#777;margin:5px 0}@media(max-width:700px){.publication-authors.authors{font-size:1.05rem}.publication-meta.affiliations{font-size:.9rem}.affiliations .author-block{white-space:normal}}
