@@ -3,42 +3,42 @@
     "category": "A",
     "title": "Actionable route",
     "caption": "Follow an immediately reachable alternative route.",
-    "src": "static/videos/highlights/a.mp4",
+    "src": "static/videos/highlights/a.mp4?v=2x",
     "poster": "static/videos/highlights/a.png"
   },
   {
     "category": "B1",
     "title": "Delayed route",
     "caption": "Wait until the requested turn becomes locally actionable.",
-    "src": "static/videos/highlights/b1.mp4",
+    "src": "static/videos/highlights/b1.mp4?v=2x",
     "poster": "static/videos/highlights/b1.png"
   },
   {
     "category": "B2",
     "title": "Locally invalid intention",
     "caption": "Reject a direction unsupported by the local road topology.",
-    "src": "static/videos/highlights/b2.mp4",
+    "src": "static/videos/highlights/b2.mp4?v=2x",
     "poster": "static/videos/highlights/b2.png"
   },
   {
     "category": "C",
     "title": "After route commitment",
     "caption": "Continue along the committed route despite a changed intention.",
-    "src": "static/videos/highlights/c.mp4",
+    "src": "static/videos/highlights/c.mp4?v=2x",
     "poster": "static/videos/highlights/c.png"
   },
   {
     "category": "L",
     "title": "Feasible lane change",
     "caption": "Respond to a reachable adjacent-lane intention.",
-    "src": "static/videos/highlights/l.mp4",
+    "src": "static/videos/highlights/l.mp4?v=2x",
     "poster": "static/videos/highlights/l.png"
   },
   {
     "category": "LC",
     "title": "Ongoing lane change",
     "caption": "Preserve the continuity of a lateral maneuver already in progress.",
-    "src": "static/videos/highlights/lc.mp4",
+    "src": "static/videos/highlights/lc.mp4?v=2x",
     "poster": "static/videos/highlights/lc.png"
   }
 ]
