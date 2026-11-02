@@ -18,9 +18,6 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
   video.hidden=true;gif.hidden=true;placeholder.hidden=false;placeholder.querySelector('p').textContent='Video coming soon';
   index=(next+items.length)%items.length;const item=items[index];
   document.getElementById('highlight-counter').textContent=`${String(index+1).padStart(2,'0')} / ${String(items.length).padStart(2,'0')}`;
-  document.getElementById('highlight-category').textContent=item.category;
-  document.getElementById('highlight-title').textContent=item.title;
-  document.getElementById('highlight-caption').textContent=item.caption;
   if(item.src){
    if(/\.gif(?:[?#]|$)/i.test(item.src)){gif.src=item.src;gif.alt=item.title;gif.hidden=false;placeholder.hidden=true;}
    else{video.src=item.src;if(item.poster)video.poster=item.poster;video.setAttribute('aria-label',item.title);video.muted=true;video.defaultPlaybackRate=1;video.playbackRate=1;video.hidden=false;placeholder.hidden=true;video.play().catch(()=>{});}
