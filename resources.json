@@ -1,11 +1,10 @@
 {
   "paper": "static/papers/PlanContext.pdf",
   "arxiv": "",
-  "code": "",
+  "code": "https://github.com/BUAA-RickyLi/PlanContext",
   "data": "",
   "video": "",
   "bibtex": "",
   "author_homepages": {},
-  "contact_email": "",
-  "huggingface": ""
+  "contact_email": ""
 }
