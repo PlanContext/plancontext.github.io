@@ -23,7 +23,7 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
   document.getElementById('highlight-caption').textContent=item.caption;
   if(item.src){
    if(/\.gif(?:[?#]|$)/i.test(item.src)){gif.src=item.src;gif.alt=item.title;gif.hidden=false;placeholder.hidden=true;}
-   else{video.src=item.src;if(item.poster)video.poster=item.poster;video.setAttribute('aria-label',item.title);video.muted=true;video.hidden=false;placeholder.hidden=true;video.play().catch(()=>{});}
+   else{video.src=item.src;if(item.poster)video.poster=item.poster;video.setAttribute('aria-label',item.title);video.muted=true;video.defaultPlaybackRate=2;video.playbackRate=2;video.hidden=false;placeholder.hidden=true;video.play().catch(()=>{});}
   }
   if(announce)document.getElementById('highlight-status').textContent=`Highlight ${index+1} of ${items.length}: ${item.title}${item.src?'':'. Video coming soon.'}`;
  }
