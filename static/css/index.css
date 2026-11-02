@@ -24,3 +24,6 @@ body{font-family:'Segoe UI',Arial,sans-serif;line-height:1.65}html{scroll-paddin
 .highlight-topline{justify-content:flex-end}.highlights-question{font-size:clamp(1.3rem,2.4vw,1.9rem)!important;line-height:1.5!important}.highlights-question strong,.highlight-answer{display:inline-block;color:#b51f30!important;font-weight:800;font-size:1.4em;margin-top:8px}.affiliation-break{display:block}@media(max-width:700px){.affiliation-break{display:none}}
 
 .highlight-explanation{max-width:790px;margin:22px auto 28px;padding:16px 24px;border-left:3px solid #b51f30;border-radius:0 12px 12px 0;background:#fff0f1;color:#71303a;font-size:1.03rem;line-height:1.7;text-align:center}.highlight-explanation strong{display:block;color:#a51c30;font-weight:700}.highlight-explanation span{display:block}@media(max-width:700px){.highlight-explanation{font-size:.92rem;padding:14px 16px;margin-top:18px}}
+
+/* Blend the highlight explanation into the page's existing typography. */
+.highlight-explanation{max-width:790px;margin:18px auto 28px;padding:0 12px;border:0;border-radius:0;background:transparent;color:var(--muted);font-size:1.02rem;line-height:1.75;text-align:center}.highlight-explanation strong{color:var(--ink);font-weight:600}.highlight-explanation span{margin-top:2px}@media(max-width:700px){.highlight-explanation{font-size:.92rem;padding:0 4px;margin:16px auto 24px}}
