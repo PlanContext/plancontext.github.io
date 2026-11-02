@@ -12,3 +12,6 @@ body{font-family:'Segoe UI',Arial,sans-serif;line-height:1.65}html{scroll-paddin
 
 /* Center the icon geometry independently of font metrics. */
 .carousel-side{display:flex;align-items:center;justify-content:center;padding:0;line-height:0}.carousel-side .carousel-chevron{display:block;flex:none;width:24px;height:24px;pointer-events:none}@media(max-width:700px){.carousel-side .carousel-chevron{width:20px;height:20px}}
+
+.highlight-stage{aspect-ratio:1252/842}.highlight-stage video{background:#fff}
+
