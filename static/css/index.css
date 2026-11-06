@@ -43,5 +43,3 @@ body{font-family:'Segoe UI',Arial,sans-serif;line-height:1.65}html{scroll-paddin
 .hero-actions .resource-coming-soon{cursor:default;box-shadow:none}.hero-actions .resource-coming-soon:hover{background:#171717}.coming-soon-badge{font-size:.65rem;font-weight:500;letter-spacing:.02em;line-height:1.4;background:rgba(255,255,255,.16);color:#f0f0f0;border-radius:999px;padding:3px 8px;margin-left:2px}
 
 .hero-actions .resource-datasets{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 22px;height:44px;border:1px solid #ded8c9;background:#f5f0e5;color:#423d32;font-weight:600;cursor:default}.hero-actions .resource-datasets:hover{background:#f5f0e5;color:#423d32}.resource-datasets .coming-soon-badge{background:#e6dfcf;color:#655d4d}.huggingface-icon{display:block;font-size:21px;line-height:1;flex-shrink:0}
-
-.highlight-stage{aspect-ratio:1072/720}
